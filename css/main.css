@@ -217,6 +217,10 @@
 	top: 5px;
 }
 
+.main .main-search form .menu-drop {
+	position: relative;
+}
+
 .main .main-search form .opt-class {
 	position: absolute;
 	background: #F1F1F1;
@@ -225,8 +229,10 @@
 	padding: 20px;
 	z-index: 12;
 	width: 280px;
-    bottom: -229px;
-    right: 21px;
+    top: 49px;
+    width: 100%;
+    width: calc(100% - 8px);
+    left: 4px;
     border-radius: 0 0 5px 5px;
     display: none;
 }
