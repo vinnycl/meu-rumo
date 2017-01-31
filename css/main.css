@@ -97,6 +97,102 @@
 	text-transform: uppercase;
 }
 
+.main .main-social {
+	text-align: center;
+	padding: 38px 0;
+	font-size: 30px;
+}
+.main .main-social .facebook a {
+	color: #455b96;
+}
+
+.main .main-social .twitter a {
+	color: #5baaec;
+}
+
+.main .main-social .linkedin a {
+	color: #fff;
+	background: #4983b8;
+	border-radius: 3px;
+	width: 32px;
+	height: 30px;
+	font-size: 23px;
+	padding: 2px 4px;
+}
+
+.main-footer {
+	background: #2C2C2C;
+	padding: 18px 0;
+	color: #FFFFFF;
+}
+.main-footer .main-contacts {
+	position: relative;
+}
+.main-footer .main-contacts a {
+	display: block;
+}
+.main-footer .main-contacts .logo-ic {
+	width: 49px;
+	height: 60px;
+	display: inline-block;
+	background: url("../img/logo.svg") no-repeat 50% 50%;
+	background-size: 100%;
+	margin-right: 6px;
+	position: relative;
+	top: 0px;
+}
+
+.main-footer .main-contacts .newsletter {
+	text-align: right;
+}
+
+.main-footer .main-contacts .newsletter input {
+	background: #353535;
+	border-radius: 100px;
+	width: 104px;
+	height: 24px;
+	padding: 0 24px 0 14px ;
+	display: inline-block;
+	border: 0px none;
+	font-size: 10px;
+	position: relative;
+	z-index: 2;
+	right: -24px;
+	top:2px;
+}
+
+.main-footer .main-contacts .newsletter button {
+	font-size: 8px;
+	width: 24px;
+	height: 24px;
+	background: #4990E2;
+	border-radius: 100px;
+	position: relative;
+	z-index: 3;
+	border: 0px none;
+}
+
+.main-footer .main-contacts .newsletter>span {
+	font-size: 9px;
+	color: #FFFFFF;
+	letter-spacing: 1.8px;
+	font-weight: 700;
+	display: block;
+	margin-bottom: 9px;
+}
+
+.main-footer .main-contacts small {
+	font-size: 10px;
+	color: #9B9B9B;
+	letter-spacing: 0;
+	line-height: 22px;
+	text-align: center;
+	display: block;
+	margin-top: 5px;
+}
+
+
+/* Home */
 
 .main .main-banner {
 
@@ -433,100 +529,106 @@
 	margin: 18px 0;
 }
 
-.main .main-social {
+
+/* quem somos */
+
+#quem-somos .inside h2 {
+	font-size: 18px;
+	color: #4A4A4A;
+	margin: 16px 0;
+	font-weight: 900;
+}
+
+#quem-somos .inside p {
+	font-weight: 300;
+	font-size: 14px;
+	color: #4A4A4A;
+	padding-bottom: 26px;
+}
+
+#quem-somos .inside p strong {
+	font-size: 18px;
+}
+
+#quem-somos .inside .logo-quem-somos {
+	width: 142px;
+	margin: 30px auto;
+	display: block;
+}
+
+/* como funciona */
+
+#como-funciona .inside h2 {
+	font-size: 18px;
+	color: #4A4A4A;
+	margin: 16px 0;
+	font-weight: 900;
+}
+
+#como-funciona .inside h3 {
+	font-size: 18px;
+	color: #4A4A4A;
+	letter-spacing: 1.5px;
+	line-height: 25px;
+	font-weight: 400;
+	margin: 0 0 15px 0;
+	text-transform: uppercase;
+}
+
+#como-funciona .inside p {
+	font-size: 14px;
+	color: #4A4A4A;
+	line-height: 17px;
+	margin: 0 0 20px 0;
+}
+
+#como-funciona .inside img {
+	display: block;
+	margin: 10px auto 36px auto;
+}
+
+#como-funciona .inside .icon-pointer-black {
+	font-size: 78px;
+	color: #f8e71c;
+	
+}
+
+#como-funciona .inside .icon-work {
 	text-align: center;
-	padding: 38px 0;
-	font-size: 30px;
-}
-.main .main-social .facebook a {
-	color: #455b96;
 }
 
-.main .main-social .twitter a {
-	color: #5baaec;
-}
-
-.main .main-social .linkedin a {
+#como-funciona .inside .icon-work>span:last-child {
+	font-size: 25px;
 	color: #fff;
-	background: #4983b8;
-	border-radius: 3px;
-	width: 32px;
-	height: 30px;
-	font-size: 23px;
-	padding: 2px 4px;
-}
-
-
-.main-footer {
-	background: #2C2C2C;
-	padding: 18px 0;
-	color: #FFFFFF;
-}
-.main-footer .main-contacts {
-	position: relative;
-}
-.main-footer .main-contacts a {
-	display: block;
-}
-.main-footer .main-contacts .logo-ic {
-	width: 49px;
-	height: 60px;
-	display: inline-block;
-	background: url("../img/logo.svg") no-repeat 50% 50%;
-	background-size: 100%;
-	margin-right: 6px;
-	position: relative;
-	top: 0px;
-}
-
-.main-footer .main-contacts .newsletter {
-	text-align: right;
-}
-
-.main-footer .main-contacts .newsletter input {
-	background: #353535;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background: #4a4a4a;
 	border-radius: 100px;
-	width: 104px;
-	height: 24px;
-	padding: 0 24px 0 14px ;
-	display: inline-block;
-	border: 0px none;
-	font-size: 10px;
-	position: relative;
-	z-index: 2;
-	right: -24px;
-	top:2px;
+	border: 10px solid #4a4a4a;
 }
 
-.main-footer .main-contacts .newsletter button {
-	font-size: 8px;
-	width: 24px;
-	height: 24px;
-	background: #4990E2;
+#como-funciona .inside .bt-funciona-f {
 	border-radius: 100px;
-	position: relative;
-	z-index: 3;
-	border: 0px none;
-}
-
-.main-footer .main-contacts .newsletter>span {
-	font-size: 9px;
-	color: #FFFFFF;
-	letter-spacing: 1.8px;
-	font-weight: 700;
+	padding: 8px 45px;
+	background: #4990E2 ;
 	display: block;
-	margin-bottom: 9px;
-}
-
-.main-footer .main-contacts small {
-	font-size: 10px;
-	color: #9B9B9B;
-	letter-spacing: 0;
-	line-height: 22px;
+	color: #fff;
+	margin: 30px auto;
+	font-size: 14px;
+	letter-spacing: 1.4px;
+	line-height: 17px;
+	font-weight: 400;
 	text-align: center;
-	display: block;
-	margin-top: 5px;
 }
+#como-funciona .inside .bt-funciona-f strong {
+	font-weight: 900;
+}
+
+/* Pacotes */
+
+
 
 @media (min-width: 768px) {
 

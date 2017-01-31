@@ -144,17 +144,14 @@ a:hover {
 }
 .icon-note-ok .path1:before {
 	content: "\e909";
-	color: rgb(0, 0, 0);
 }
 .icon-note-ok .path2:before {
 	content: "\e90a";
 	margin-left: -1em;
-	color: rgb(1, 0, 2);
 }
 .icon-note-ok .path3:before {
 	content: "\e90b";
 	margin-left: -1em;
-	color: rgb(1, 0, 2);
 }
 .icon-ok:before {
 	content: "\e90c";
