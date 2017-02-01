@@ -65,7 +65,7 @@
 }
 
 .main-header.open .menu-show {
-	display: block !important;
+	display: block;
 	position: absolute;
 	width: 100%;
 	top: 66px;
@@ -102,6 +102,10 @@
 	padding: 38px 0;
 	font-size: 30px;
 }
+.main .main-social li {
+	display: inline-block;
+	margin: 0 30px;
+}
 .main .main-social .facebook a {
 	color: #455b96;
 }
@@ -118,6 +122,8 @@
 	height: 30px;
 	font-size: 23px;
 	padding: 2px 4px;
+	position: relative;
+	top: -5px;
 }
 
 .main-footer {
@@ -159,6 +165,7 @@
 	z-index: 2;
 	right: -24px;
 	top:2px;
+	outline: none;
 }
 
 .main-footer .main-contacts .newsletter button {
@@ -631,8 +638,393 @@
 
 
 @media (min-width: 768px) {
+	.main-header .menu {
+		width: 104px;
+		height: 104px;
+		position: relative;
+		left: -15px;
+	}
+	.main-header .menu a {
+		font-size: 40px;
+		line-height: 40px;
+		padding-top: 30px;
+		padding-bottom: 32px;
+	}
+	.main-header .logo a h1 {
+		font-size: 35px;
+		letter-spacing: 3.5px;
+		top: -20px;
+	}
+	.main-header .logo a h1 .logo-ic {
+		width: 70px;
+		height: 85px;
+		top: 30px;
+		margin-right: 15px;
+	}
+	.main-header.open .menu-show {
+		top: 105px;
+	}
+	.main-header.open .menu-show.como {
+		top: 153px;
+	}
+
+	.main-header.open .menu-show.pacotes {
+		top: 201px;
+	}
+	.main-header.open .menu-show.contato {
+		top: 249px;
+	}
+	.main-header.open .menu-show.login {
+		top: 297px;
+	}
+
+	.main .main-banner, .main .main-banner .container{
+		height: 350px;
+	}
+	.main .main-banner .container {
+		background-size: 500px;
+		background-position: left 150px;
+	}
+	.main .main-banner h2 {
+		padding-top: 30px;
+		font-size: 40px;
+	}
+	.main .main-banner h3 {
+		font-size: 28px;
+		padding-top: 10px;
+		font-weight: 700;
+	}
+	.main .main-banner a {
+		position: absolute;
+		width: 180px;
+		height: 53px;
+		font-size: 12px;
+		padding-top: 22px;
+		right: 50px;
+		top: 120px;
+	}
+	.main .main-search h2 {
+		font-size: 28px;		
+	}
+	.main .main-search p {
+		font-size: 28px;
+		margin-bottom: 50px;
+	}
+	.main .main-search form {
+		position: relative;
+
+	}
+	#btn-cidade, #btn-atividade, .menu-drop {
+		float: left;
+		width: auto;
+		display: inline-block;
+		height: 58px;
+	}
+	#btn-cidade {
+		border-radius: 5px 0 0 5px;
+		width: 	194px;
+		padding-left: 45px;
+	}
+	.main .main-search form:before {
+		font-family: 'icomoon';
+		content: "\e901";
+		display: block;
+		position: absolute;
+		font-size: 31px;
+		top: 10px;
+		left: 5px;
+		color: #a9a9b1;
+	}
+	#btn-atividade {
+		border-radius: 0px;
+		margin-left: -2px;
+		width: 	227px;
+	}
+	.menu-drop {
+		width: 146px;
+	}
+	.menu-drop #btn-classe {
+		border-radius: 0px;
+		height: 58px;
+		margin-left: -2px;
+	}
+	.main .main-search form .opt-class {
+		width: 280px;
+		left: 0px;
+		top: 57px;
+	}
+	.main .main-search form small {
+		clear: both;
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
+	.main .main-search form button {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		width: 156px;
+		height: 58px;
+		border-radius: 0 5px 5px 0;
+	}
+	.main .main-search form button span {
+		margin-right: 7px;
+	}
+	.main .main-plans h2 {
+		font-size: 54px;
+		line-height: 48px;
+		margin: 30px 0 16px 0;
+	}
+	.main .main-plans p {
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
+	.main .main-plans ul {
+		position: relative;
+		margin-bottom: 30px;
+	}
+	.main .main-plans ul li {
+		width: 233px;
+		height: 300px;
+		display: inline-block;		
+		padding: 45px 0;
+		background: #F8F8F8;
+		vertical-align: top;
+		margin-right: 250px;
+		margin-top: 20px;
+	}
+	.main .main-plans ul li a {
+		background: #F8F8F8;
+	}
+	.main .main-plans ul li:first-child {
+		position: absolute;
+		z-index: 3;
+		top: -20px;
+		left: 50%;
+		transform: translate(-50%, 0);
+		background: #fff;
+		margin-right: 0px;
+		width: 266px;
+		height: 342px;
+		padding: 45px;
+	}
+	.main .main-plans ul li:last-child {
+		padding: 45px 0;
+		margin-right: 0px;
+	}
+
+	.main .main-plans ul li h3 {
+		font-size: 24px;
+		letter-spacing: 2px;
+	}
+	.main .main-plans ul li:first-child h3 {
+		font-size: 30px;
+	}
+	.main .main-saing {
+		padding: 70px 0;
+	}
+	.main .main-saing h3 {
+		padding-left: 60px;
+		font-size: 48px;
+	}
+	.main .main-saing small {
+		font-size: 34px;
+		padding-right: 100px;
+	}
+	.main .main-saing span {
+		font-size: 100px;
+		top: 25px;
+	}
+	.main .main-map .container {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+
+	}
+	.main .main-map p {
+		font-size: 20px;
+		letter-spacing: 0px;
+		line-height: 26px;
+	}
+	.main .main-social {
+		padding: 60px 0;
+	}
+	.main-footer {
+		padding-top: 40px;
+	}
+	.main-footer .main-contacts .logo-ic {
+		width: 83px;
+		height: 102px;
+		position: absolute;
+		top: -25px;
+	}
+	.main-footer .main-contacts small {
+		margin-top: 20px;
+		font-size: 14px;
+	}
+	.main-footer .main-contacts .newsletter>span {
+		display: inline-block;
+		font-size: 12px;
+		letter-spacing: 2.4px;
+		position: relative;
+		right: -25px;
+	}
+	.main-footer .main-contacts .newsletter form {
+		display: inline-block;
+	}
+	.main-footer .main-contacts .newsletter input {
+		width: 223px;
+		height: 51px;
+		right: -53px;
+		font-size: 14px;
+		line-height: 26px;
+		padding-right: 50px;
+	}
+	.main-footer .main-contacts .newsletter button {
+		width: 48px;
+		height: 48px;
+		top: 3px;
+		font-size: 20px;
+	}
 
 }
 @media (min-width: 992px) {
+	.main-header {
+		height: 173px;
+	}
+	.main-header ul li {
+		float: none;
+		padding-left: 0px;
+		vertical-align: top;
+	}
+	.main-header .logo {
+		float: none;
+		padding-left: 0px;
+		display: inline-block;
+	}
+	.main-header ul li a {
+		display: block;
+		color: #FFF;
+		text-transform: uppercase;
+		padding: 20px 30px;
+		letter-spacing: 1.87px;
+		font-size: 14px;
+		background: transparent;
+		border-radius: 7px;
+	}
+	.main-header ul li.xs-show {
+		display: inline-block;
+	}
+	.main-header .logo {
+		position: relative;
+		top: 12px;
+	}
+	.main-header .logo a {
+		padding: 0;
+		background: transparent;
+	}
+	.main-header .logo a h1 {
+		font-size: 30px;
+		letter-spacing: 3px;
+		top: -55px;
+		margin-right: 30px;
+	}
+	.main-header .logo a h1 .logo-ic {
+		width: 116px;
+		height: 141px;
+		margin-right: 20px;
+		top: 60px;
+	}
+	.main-header ul li.quem, .main-header ul li.como, .main-header ul li.pacotes, .main-header ul li.contato, .main-header ul li.login {
+		margin-top: 61px;
+	}
+	.main-header ul li.login a {
+		background: #D0011B;
+	}
+	.main .main-banner, .main .main-banner .container {
+		height: 585px;
+	}
+	.main .main-banner .container {
+		background-position: 0 220px;
+		background-size: 1000px;
+	}
+	.main .main-banner h2 {
+		font-size: 68px;
+		letter-spacing: -1.5px;
+		line-height: 68px;
+		padding: 30px 0;
+	}
+	.main .main-banner h3 {
+		font-size: 36px;
+		letter-spacing: 0.69px;	
+		padding: 0;	
+	}
+	.main .main-banner a {
+		right: 30px;
+		top: 320px;
+		margin: 0;
+		width: 230px;
+		height: 68px;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		padding-top: 28px;
+	}
+	.main .main-banner a span {
+		font-size: 13px;
+		width: 32px;
+		height: 32px;
+		padding: 6px;
+	}
+	.main .main-banner a span:before {
+		position: relative;
+		left: 1px;
+	}
+	.main .main-search h2 {
+		font-size: 64px;
+		margin: 10px 0 0 0;
+	}
+	.main .main-search p {
+		font-size: 36px;
+		width: 890px;
+		margin: 25px auto 75px auto;
+		display: block;
+	}
+	.main .main-search form {
+		width: 1024px;
+		margin: 0 auto;
+		display: block;
+	}
+	#btn-cidade {
+		width: 295px;
+		height: 68px;
+		font-size: 24px;
+		line-height: 68px;
+	}
+	#btn-atividade {
+		width: 339px;
+		height: 68px;
+		font-size: 24px;
+		line-height: 68px;
+	}
+	.menu-drop {
+		width: 208px;
+	}
+	.menu-drop #btn-classe {
+		height: 68px;
+		font-size: 24px;
+	}
+	.main .main-search form button {
+		width: 184px;
+		height: 68px;
+		line-height: 68px;
+		padding-top: 0px;
+	}
+	.main .main-search form:before {
+		top: 15px;
+	}
+	.main .main-search form .opt-class {
+		left: -1px;
+		top: 67px;
+	}
 
 }
