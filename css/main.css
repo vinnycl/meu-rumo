@@ -1104,6 +1104,15 @@
 		line-height: 32px;
 		letter-spacing: 0.2px;
 	}
+	.main .main-map .container {
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.main .main-map .product-photo {
+		height: 355px;
+	}
 	.main .main-social li a {
 		opacity: 0.9;
 		transition: opacity 200ms ease-out;
