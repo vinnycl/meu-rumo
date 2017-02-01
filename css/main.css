@@ -247,6 +247,7 @@
 	top: 30px;
 }
 
+
 .main .main-banner a span {
 	font-size: 10px;
 	width: 18px;
@@ -913,6 +914,7 @@
 		font-size: 14px;
 		background: transparent;
 		border-radius: 7px;
+		transition: background 200ms ease-out;
 	}
 	.main-header ul li.xs-show {
 		display: inline-block;
@@ -943,6 +945,9 @@
 	.main-header ul li.login a {
 		background: #D0011B;
 	}
+	.main-header ul li a:hover {
+		background: #D0011B;
+	}
 	.main .main-banner, .main .main-banner .container {
 		height: 585px;
 	}
@@ -970,6 +975,12 @@
 		font-size: 14px;
 		letter-spacing: 0.7px;
 		padding-top: 28px;
+		transition: background 200ms ease-out;
+		opacity: 0.9;
+		transition: opacity 200ms ease-out;
+	}
+	.main .main-banner a:hover {
+		opacity: 1;
 	}
 	.main .main-banner a span {
 		font-size: 13px;
@@ -1020,6 +1031,12 @@
 		height: 68px;
 		line-height: 68px;
 		padding-top: 0px;
+		opacity: 0.9;
+		outline: none;
+		transition: opacity 200ms ease-out;
+	}
+	.main .main-search form button:hover {
+		opacity: 1
 	}
 	.main .main-search form:before {
 		top: 15px;
@@ -1027,6 +1044,12 @@
 	.main .main-search form .opt-class {
 		left: -1px;
 		top: 67px;
+	}
+	.main .main-search form .opt-class input:after {
+		transition: background 200ms ease-out;
+	}
+	.main .main-search form .opt-class input:hover:after {
+		background: #4990E2;
 	}
 	.main .main-plans h2 {
 		font-size: 64px;
@@ -1050,6 +1073,12 @@
 	}
 	.main .main-plans ul li a {
 		padding: 14px;
+		transition: all 200ms ease-out;
+	}
+	.main .main-plans ul li a:hover {
+		color: #FFFFFF;
+		background: #D0011B;
+		border: 1px solid #D0011B;
 	}
 	.main .main-plans ul li h4 {
 		margin: 10px auto 35px auto;
@@ -1092,6 +1121,12 @@
 	}
 	.main-footer .main-contacts .newsletter button {
 		top: -47px;
+		outline: none;
+		opacity: 0.9;
+		transition: opacity 200ms ease-out;
+	}
+	.main-footer .main-contacts .newsletter button:hover {
+		opacity: 1;
 	}
 	
 	.main-footer .main-contacts .site-map ul li {
@@ -1107,6 +1142,7 @@
 		border-radius: 30px;
 		background: #2C2C2C ;
 		text-transform: uppercase;
+		transition: background 200ms ease-out;
 	}
 	.main-footer .main-contacts .site-map ul li a:hover {
 		background: #353535;
