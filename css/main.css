@@ -1104,6 +1104,13 @@
 		line-height: 32px;
 		letter-spacing: 0.2px;
 	}
+	.main .main-social li a {
+		opacity: 0.9;
+		transition: opacity 200ms ease-out;
+	}
+	.main .main-social li a:hover {
+		opacity: 1;
+	}
 	.main-footer .main-contacts .newsletter form, .main-footer .main-contacts .newsletter>span{
 		display: block;
 	}
