@@ -638,7 +638,181 @@
 
 /* Pacotes */
 
+/* Contato */
 
+#contato .inside h2 {
+	font-weight: 900;
+	font-size: 20px;
+	color: #212121;
+	letter-spacing: 0;
+	line-height: 20px;
+	margin-bottom: 17px;
+}
+#contato .inside p {
+	font-size: 14px;
+	color: #6C6C6C;
+	letter-spacing: 0;
+	line-height: 18px;
+}
+
+#contato .inside input, #contato .inside textarea {
+	background: #F6F6F6;
+	border: 1px solid #DEDEDE;
+	border-radius: 5px;
+	padding: 8px;
+	font-family: "Lato", sans-serif;
+	color: #6C6C6C;
+	margin-bottom: 16px;
+	width: 100%;
+	height: 55px;
+	position: relative;
+	padding-left: 50px;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	outline: none;
+	z-index: 1;
+}
+#contato .inside textarea::-webkit-input-placeholder, #contato .inside input::-webkit-input-placeholder {
+	color: #6C6C6C;
+}
+
+#contato .inside textarea {
+	height: 135px;
+	resize: none;
+	padding: 8px;
+}
+
+#contato .inside .email:before, #contato .inside .user:before {
+	content: "\e907";
+	display: block;
+	position: absolute;
+	top: 18px;
+	left: 33px;
+	color: #6C6C6C ;
+	font-size: 18px;
+	font-family: 'icomoon';
+	z-index: 2;
+}
+
+#contato .inside .user:before {
+	content: "\e90e";
+}
+
+#contato .inside button {
+	background: #4990E2;
+	border-radius: 100px;
+	width: 160px;
+	height: 46px;
+	border: 0px none;
+	float: right;
+	clear: both;
+	font-size: 12px;
+	color: #FFFFFF;
+	letter-spacing: 2.4px;
+	margin-bottom: 20px;
+}
+
+#contato .inside h3 {
+	color: #9FA3A7 ;
+	font-size: 14px;
+	color: #9FA3A7;
+	letter-spacing: 3.36px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+#contato .inside  .contato-fixo a {
+	font-weight: 700;
+	font-size: 14px;
+	color: #212121;
+	display: block;
+}
+#busca-avancada.main .main-search.inside {
+	padding: 0;
+}
+
+/* busca avancada */
+
+#busca-avancada .inside h2 {
+	font-weight: 900;
+	font-size: 20px;
+	color: #4A4A4A;
+	letter-spacing: -0.42px;
+	line-height: 34px;
+	margin: 0;
+	text-align: left;
+	margin: 16px 0;
+}
+#busca-avancada .adv-search.inside {
+	background: #F1F1F1;
+	margin-top: 30px;
+}
+#busca-avancada .adv-search.inside img {
+	margin-left: -15px;
+}
+
+#busca-avancada .adv-search.inside h4 {
+	font-weight: 700;
+	font-size: 12px;
+	color: #4A4A4A;
+	letter-spacing: -0.07px;
+	line-height: 14px;
+	margin: 13px 0;
+}
+#busca-avancada .adv-search.inside .ocorrencias {
+	text-align: right;
+}
+#busca-avancada .adv-search.inside span {
+	border-radius: 10px;
+	font-weight: 700;
+	font-size: 10px;
+	color: #4A4A4A;
+	letter-spacing: -0.09px;
+	display: inline-block;
+	padding: 8px 11px;
+	background: #fff;
+	border: 1px solid #979797;
+	margin-top: 10px;
+}
+
+#busca-avancada .adv-search.inside span strong {
+	color: #D0011B;
+	letter-spacing: -0.07px;
+	font-weight: 700;
+	font-size: 12px;
+	margin-left: 10px;
+}
+#busca-avancada .adv-search.inside span.baixa strong {
+	color: #F6A623;
+}
+
+#busca-avancada .adv-search-b.inside a {
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	line-height: 18px;
+	font-weight: 400;
+	background: #4990E2;
+	border: 1px solid #979797;
+	text-align: center;
+	display: block;
+	margin: 33px auto;
+	padding: 16px 26px;
+	border-radius: 20px;
+}
+#busca-avancada .adv-search.inside.control {
+	margin-bottom: 44px;
+}
+
+#busca-avancada .adv-search.inside.control, #busca-avancada .adv-search.inside.control .ocorrencias {
+	text-align: center;
+}
+#busca-avancada .adv-search.inside.control .ocorrencias {
+	margin-bottom: 18px;
+}
+
+/* Carrinho */
 
 @media (min-width: 768px) {
 	.main-header .menu {
@@ -947,6 +1121,9 @@
 	}
 	.main-header ul li a:hover {
 		background: #D0011B;
+	}
+	.main-header .logo a:hover {
+		background: transparent;
 	}
 	.main .main-banner, .main .main-banner .container {
 		height: 585px;
