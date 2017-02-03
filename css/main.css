@@ -1146,6 +1146,93 @@
 
 /* Login */
 
+#login .inside h2{
+	font-size: 18px;
+	color: #4A4A4A;
+	margin: 16px 0;
+	font-weight: 900;
+}
+
+#login .inside p {
+	font-size: 14px;
+	color: #6C6C6C;
+	font-weight: 400;
+}
+
+#login .inside input {
+	background: #FAFAFA;
+	border: 1px solid #E6E6E6;
+	padding: 10px 14px;
+	border-radius: 5px;
+	font-size: 12px;
+	color: #292929;
+	font-family: "Lato";
+	line-height: 12px;
+	margin-bottom: 23px;
+	width: 100%;
+	display: block;
+	margin-bottom: 27px;
+}
+
+#login .inside button.bt-continuar.facebook {
+	width: auto;
+	margin: 33px auto;
+	padding: 7px 15px;
+}
+
+/* perfil */
+
+#profile .inside h2 {
+	font-weight: 900;
+	font-size: 34px;
+	color: #4A4A4A;
+	letter-spacing: -0.71px;
+	line-height: 34px;
+	margin-top: 25px;	
+}
+#profile .inside h3 {
+	margin: 25px 0;
+	font-size: 14px;
+	color: #9FA3A7;
+	letter-spacing: 2.8px;
+	font-weight: 300;
+}
+#profile .inside h4 {
+	font-size: 20px;
+	color: #4A4A4A;
+	letter-spacing: 4px;
+	font-weight: 400;
+}
+
+#profile .inside label {
+	display: block;
+	padding-left: 10px;
+	font-weight: 400;
+	font-size: 14px;
+	color: #292929;
+	letter-spacing: 0;
+	line-height: 26px;
+}
+
+#profile .inside input {
+	background: #FAFAFA;
+	border: 1px solid #E6E6E6;
+	padding: 10px 14px;
+	border-radius: 5px;
+	font-size: 12px;
+	color: #292929;
+	font-family: "Lato";
+	line-height: 12px;
+	width: 100%;
+	display: block;
+	margin: 10px 0;
+}
+
+#profile .inside button {
+	width: auto;
+	margin: 40px auto 10px auto;
+}
+
 @media (min-width: 768px) {
 	.main-header .menu {
 		width: 104px;
