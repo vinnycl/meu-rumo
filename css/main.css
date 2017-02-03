@@ -104,7 +104,7 @@
 }
 .main .main-social li {
 	display: inline-block;
-	margin: 0 30px;
+	margin: 0 25px;
 }
 .main .main-social .facebook a {
 	color: #455b96;
@@ -813,6 +813,338 @@
 }
 
 /* Carrinho */
+
+#pagamento .main-pay.inside {
+	padding: 40px 0;
+}
+
+#pagamento .main-pay.inside .time-pay {
+	border-right: 1px solid #DCDDE1;
+}
+
+#pagamento .main-pay.inside .time-pay ul {
+	counter-reset: counter;
+	padding-top: 7px;
+}
+
+#pagamento .main-pay.inside .time-pay ul li {
+	position: relative;
+	font-size: 10px;
+	
+	letter-spacing: 2.4px;
+	height: 88px;
+	text-transform: uppercase;
+	color: #9FA3A7;
+}
+#pagamento .main-pay.inside .time-pay ul li.open {
+ 	color: #212121;
+ }
+#pagamento .main-pay.inside .time-pay ul li:last-child {
+	height: 25px;
+}
+
+#pagamento .main-pay.inside .time-pay ul li:before {
+	counter-increment: counter;
+	content: counter(counter);
+	border-radius: 100px;
+	background: #FFC80A;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	padding: 5px 8px;
+	position: relative;
+	top: 2px;
+	margin-right: 10px;
+}
+
+#pagamento .main-pay.inside .time-pay ul li.open:before {
+	background: #4990E2;
+}
+
+#pagamento .main-pay.inside .time-pay ul li:after {
+    width: 1px;
+    height: 63px;
+    background: #FFC80A;
+    position: absolute;
+    top: 21px;
+    left: 12px;
+    content: "";
+}
+#pagamento .main-pay.inside .time-pay ul li:last-child:after {
+	display: none;
+}
+
+#pagamento .main-pay.inside .time-pay ul li.open:after {
+	background: #4990E2;
+}
+
+#pagamento .main-pay.inside .holder-pay i {
+	display: block;
+	font-style: normal;
+	margin: 7px 0 12px 0;
+	font-size: 10px;
+	color: #9FA3A7;
+	letter-spacing: 2.4px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+#pagamento .main-pay.inside .holder-pay ul {
+	margin-bottom: 44px;
+}
+
+#pagamento .main-pay.inside .holder-pay ul li {
+	position: relative;
+}
+
+#pagamento .main-pay.inside .holder-pay ul li.plano-c strong{
+	font-size: 14px;
+	color: #2C2C2C;
+	line-height: 14px;
+	text-transform: uppercase;
+	background: #DCDDE1;
+	padding: 7px;
+	margin: 10px 7px 26px 0;
+	display: inline-block;
+	position: relative;
+}
+
+#pagamento .main-pay.inside .holder-pay ul li.plano-c strong:after {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 15px 0 15px 7px;
+	border-color: transparent transparent transparent #dcdde1;
+	right: -7px;
+	top: -1px;
+	display: block;
+	content: "";
+	position: absolute;
+}
+
+#pagamento .main-pay.inside .holder-pay ul li.plano-p strong{
+	display: block;
+	margin-bottom: 26px;
+	font-size: 16px;
+	color: #212121;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+#pagamento .main-pay.inside .holder-pay ul li.plano-q span {
+	display: block;
+	position: relative;
+	width: 98px;
+	height: 33px;
+	border-radius: 30px;
+	border: 2px solid #eee;
+	margin-bottom: 25px;
+}
+
+#pagamento .main-pay.inside .holder-pay ul li.plano-q span a {
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	display: inline-block;
+	text-align: center;
+	font-size: 22px;
+	color: #9FA3A7;
+	position: relative;
+	top: 2px;
+	padding: 0 12px;
+}
+#pagamento .main-pay.inside .holder-pay ul li.plano-q span input {
+	border: 0px none;
+	height: 29px;
+	width: 30px;
+	text-align: center;
+	font-size: 12px;
+	color: #212121;
+	letter-spacing: 2.4px;
+	font-family: "Lato";
+	outline: none;
+}
+
+#pagamento .main-pay.inside .holder-pay ul li.plano-t strong{
+	font-size: 16px;
+	color: #212121;
+	font-weight: 400;
+	display: block;
+	position: relative;
+}
+#pagamento .main-pay.inside .holder-pay ul li.plano-t strong a {
+	width: 9px;
+	height: 9px;
+	border: 1px solid  #9FA3A7;
+	line-height: 5px;
+	font-size: 5px;
+	color: #9FA3A7;
+	border-radius: 100px;
+	display: block;
+	text-align: center;
+	padding-top: 1px;
+	position: absolute; 
+	top: 5px;
+	right: 0px;
+}
+.bt-voltar, .bt-continuar {
+	border: 2px solid #D8D8D8;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 14px;
+	color: #4E4E4E;
+	letter-spacing: 0;
+	line-height: 26px;
+	border-radius: 24px;
+	padding: 2px 20px;
+	display: block;
+	text-align: center;
+	width: 135px;
+	margin: 0 auto;
+}
+.bt-continuar {
+	font-size: 12px;
+	color: #FFFFFF;
+	letter-spacing: 2.4px;
+	font-weight: 400;
+	background: #4990E2;
+	border: 2px solid #4990E2;
+	text-transform: uppercase;
+}
+
+#pagamento .main-pay.inside .pay-using h2{
+	font-size: 14px;
+	color: #6C6C6C;
+	font-weight: 700;
+	margin: 8px 0 0 0;
+}
+#pagamento .main-pay.inside .pay-using span {
+	font-size: 101px;
+	line-height: 28px;
+	color: #4990E2;
+	padding: 8px 14px 5px 14px;
+	text-align: center;
+	border: 2px solid #F1F1F1;
+	border-radius: 10px;
+	display: block;
+	margin-top: 23px;
+}
+
+#pagamento .main-pay.inside .alert-paypal {
+	font-size: 14px;
+	color: #9B9B9B;
+	font-weight: 400;
+	margin: 30px 0;
+	background: #F1F1F1;
+	padding: 12px;
+	border-radius: 10px;
+}
+
+#pagamento .main-pay.inside .alert-paypal a {
+	color: #9B9B9B;
+	text-decoration: underline;
+}
+
+#pagamento .main-pay.inside .pay-create-acc h2 {
+	font-size: 12px;
+	color: #9FA3A7;
+	letter-spacing: 2.4px;
+	font-weight: 400;
+	margin: 0 0 15px 0;
+}
+
+#pagamento .main-pay.inside .pay-create-acc input {
+	background: #FAFAFA;
+	border: 1px solid #E6E6E6;
+	padding: 10px 14px;
+	border-radius: 5px;
+	font-size: 12px;
+	color: #292929;
+	font-family: "Lato";
+	line-height: 12px;
+	margin-bottom: 23px;
+	width: 100%;
+	display: block;
+}
+
+#pagamento .main-pay.inside .pay-create-acc label {
+	font-family: "Lato";
+	font-size: 12px;
+	color: #212121;
+	letter-spacing: 0;
+	line-height: 12px;
+	position: relative;
+	top: -5px;
+	display: inline-block;
+	margin-left: 5px;
+}
+#pagamento .main-pay.inside .pay-create-acc #pay-login {
+	display: inline-block;
+	margin: 0;
+	width: auto;
+	color: #4990E2;
+	font-size: 18px;
+	height: 18px;
+	width: 18px;
+}
+
+#pagamento .main-pay.inside .pay-log-in .bt-continuar {
+	margin-top: 33px;
+}
+#pagamento .main-pay.inside .pay-log-facebook .bt-continuar {
+	width: auto ;
+	margin: 33px 0;
+	padding: 7px 10px;
+}
+
+#pagamento .main-pay.inside .pay-log-facebook .bt-continuar span {
+	position: relative;
+	font-size: 19px;
+	top: 2px;
+}
+
+#pagamento .main-pay.inside .pay-ok {
+	text-align: center;
+}
+
+#pagamento .main-pay.inside .pay-ok span {
+	width: 57px;
+	height: 57px;
+	border: 3px solid #FFC80A;
+	color: #FFC80A;
+	font-size: 25px;
+	line-height: 53px;
+	border-radius: 100px;
+	display: block;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+#pagamento .main-pay.inside .pay-ok h2 {
+	font-size: 23px;
+	color: #212121;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 33px 0 0 0;
+}
+
+#pagamento .main-pay.inside .pay-ok p {
+	font-size: 14px;
+	color: #9FA3A7;
+	line-height: 20px;	
+	margin: 30px 0 60px 0;
+}
+
+#pagamento .main-pay.inside .pay-ok .bt-voltar-home {
+	font-size: 12px;
+	color: #212121;
+	letter-spacing: 2.4px;
+	font-weight: 400;
+	padding: 15px;
+	border: 3px solid #FFC80A;
+	border-radius: 24px;
+}
+
+/* Login */
 
 @media (min-width: 768px) {
 	.main-header .menu {
