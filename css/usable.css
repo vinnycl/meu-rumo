@@ -193,7 +193,9 @@ input {
 	display: block;
 }
 
-
+.md-hidden {
+	display: none;
+}
 
 
 

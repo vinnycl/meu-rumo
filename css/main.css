@@ -714,7 +714,6 @@
 }
 
 #contato .inside h3 {
-	color: #9FA3A7 ;
 	font-size: 14px;
 	color: #9FA3A7;
 	letter-spacing: 3.36px;
@@ -810,6 +809,14 @@
 }
 #busca-avancada .adv-search.inside.control .ocorrencias {
 	margin-bottom: 18px;
+}
+
+#busca-avancada h3 {
+	font-size: 24px;
+	color: #4A4A4A;
+	letter-spacing: 0.56px;
+	line-height: 36px;
+	margin: 10px 0 0 0;
 }
 
 /* Carrinho */
@@ -927,7 +934,6 @@
 	font-size: 16px;
 	color: #212121;
 	font-weight: 400;
-	font-size: 16px;
 }
 
 #pagamento .main-pay.inside .holder-pay ul li.plano-q span {
@@ -990,7 +996,6 @@
 	border: 2px solid #D8D8D8;
 	font-weight: 700;
 	font-size: 14px;
-	line-height: 14px;
 	color: #4E4E4E;
 	letter-spacing: 0;
 	line-height: 26px;
@@ -1124,7 +1129,7 @@
 	color: #212121;
 	font-weight: 400;
 	line-height: 30px;
-	margin-top: 33px 0 0 0;
+	margin: 33px 0 0 0;
 }
 
 #pagamento .main-pay.inside .pay-ok p {
@@ -1481,6 +1486,312 @@
 		height: 48px;
 		top: 3px;
 		font-size: 20px;
+	}
+	/* quem somos */
+	#quem-somos .inside .logo-quem-somos {
+		margin: 0;
+		width: 203px;
+		height: 247px;
+	}
+	#quem-somos .inside p.floater {
+		margin-right: 0px;
+		float: left;
+		width: 100%;
+		width: calc(100% - 203px);
+	}
+	#quem-somos .inside p {
+		font-size: 20px;
+	}
+	#quem-somos .inside h2 {
+		font-size: 34px;
+		margin: 36px 0;
+	}
+	#quem-somos .inside p strong {
+		font-size: 25px;
+	}
+	/* busca avancada */
+
+	#busca-avancada .inside h2 {
+		font-size: 34px;
+		margin: 36px 0;
+	}
+	#busca-avancada .adv-search.inside img {
+		margin: 0;
+		width: 100%;
+	}
+	#busca-avancada .adv-search.inside h4 {
+		font-size: 24px;
+		color: #4A4A4A;
+		letter-spacing: 0.56px;
+		line-height: 36px;
+		text-align: left;
+		padding-top: 10px;
+	}
+	#busca-avancada .adv-search.inside span {
+		display: block;
+		font-size: 20px;
+		letter-spacing: -0.11px;
+	}
+	#busca-avancada .adv-search.inside span strong {
+		font-size: 24px;
+	}
+	/* planos */
+	.main .main-plans {
+		background: url(../img/bg-lunch-outside.jpg) 50% 50% no-repeat;
+		background-size: 100%;
+	}
+	.main .main-plans h2 {
+		text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+		margin: 20px 0 16px 0;
+	}
+	.main .main-plans p {
+		color: #4A4A4A;
+	}
+	.main .main-plans span {
+		color: #fff;
+		font-size: 95px;
+		line-height: 95px;
+	}
+	#busca-avancada .adv-search.inside span {
+		text-align: center;
+	}
+	#busca-avancada .adv-search-b.inside a {
+		width: 480px;
+		font-size: 26px;
+		letter-spacing: 1.56px;
+		line-height: 43px;
+	}
+	/* como funciona */
+	#como-funciona .inside h2 {
+		font-size: 34px;
+		letter-spacing: -0.71px;
+		line-height: 34px;
+		margin: 35px 0;
+	}
+	#como-funciona .inside h3 {
+		font-size: 24px;
+		letter-spacing: 2px;
+		line-height: 25px;
+	}
+	#como-funciona .inside .icon-pointer-black {
+		font-size: 148px;
+	}
+	#como-funciona .inside .icon-work>span:last-child {
+		font-size: 60px;
+		top: 20px;
+	}
+	#como-funciona .inside img {
+		position: relative;
+		left: 95px;
+		width: 410px;
+	}
+	#como-funciona .inside p {
+		font-size: 19px;
+		line-height: 23px;
+	}
+	#como-funciona .inside .bt-funciona-f {
+		width: 300px;
+	}
+	/* contato */
+	#contato .inside h2 {
+		font-size: 34px;
+		line-height: 34px;
+		margin: 35px 0;
+	}
+	#contato .inside p {
+		font-size: 20px;
+		line-height: 26px;
+		margin-bottom: 30px;
+	}
+	#contato .inside input {
+		margin-bottom: 30px;
+	}
+	#contato .inside textarea {
+		margin-bottom: 30px;
+		height: 255px;
+	}
+	#contato .inside h3 {
+		font-size: 18px;
+		letter-spacing: 4.32px;
+		margin-top: 20px;
+	}
+	#contato .inside .contato-fixo {
+		position: relative;
+		top: -75px;
+	}
+	#contato .inside  .contato-fixo a {
+		font-size: 18px;
+	}
+	/* carrinho */
+	#pagamento .main-pay.inside .time-pay ul li {
+		height: 65px;
+		display: inline-block;
+		padding-top: 45px;
+		width: 25%;
+		float: left;
+		text-align: center;
+		font-size: 10px;
+	}
+	#pagamento .main-pay.inside .time-pay ul li:before {
+		position: absolute;
+		font-size: 12px;
+		width: 25px;
+		height: 25px;
+		margin:  0px;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+	#pagamento .main-pay.inside .time-pay ul li:after {
+		width: 159px;
+		height: 1px;
+		top: 14px;
+		left: 99px;
+	}
+	#pagamento .main-pay.inside .time-pay {
+		border: 0px none; 
+	}
+	#pagamento .main-pay.inside .holder-pay ul {
+		display: block;
+		clear: both;
+		margin-bottom: 100px;
+		overflow: hidden;
+	}
+	#pagamento .main-pay.inside .holder-pay ul li {
+		float: left;
+		width: 25%;
+		height: 95px;
+		border-bottom: 1px solid #DCDDE1;
+	}
+	#pagamento .main-pay.inside .holder-pay i {
+		padding-bottom: 7px;
+		border-bottom: 1px solid #DCDDE1;
+	}
+	#pagamento .main-pay.inside .holder-pay ul li.plano-p strong {
+		position: relative;
+		top: 10px;
+	}
+	#pagamento .main-pay.inside .holder-pay ul li.plano-q span {
+		top: 5px;
+	}
+	#pagamento .main-pay.inside .holder-pay ul li.plano-t strong {
+		top: 10px;
+	}
+	#pagamento .main-pay.inside .holder-pay ul li.plano-t strong a {
+		right: 80px;
+	}
+	#pagamento .main-pay.inside .prize-repeat {
+		text-align: center;
+	}
+	#pagamento .main-pay.inside .prize-repeat i {
+		font-style: normal;
+		display: block;
+		font-size: 10px;
+		color: #9FA3A7;
+		letter-spacing: 2.4px;
+		font-weight: 400;
+		margin-bottom: 6px;
+		text-transform: uppercase;
+		position: relative;
+		top: -20px;
+	}
+	#pagamento .main-pay.inside .prize-repeat strong {
+		font-size: 36px;
+		color: #292929;
+		font-weight: 400;
+		line-height: 36px;
+		position: relative;
+		top: -20px;
+	}
+	#pagamento .main-pay.inside .pay-using {
+		padding-top: 50px;
+	}
+	#pagamento .main-pay.inside .pay-using h2 {
+		display: inline-block;
+		font-size: 18px;
+		vertical-align: top;
+		margin-top: 20px;
+	}
+	#pagamento .main-pay.inside .pay-using span {
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 0 0 20px;
+		font-size: 150px;
+		line-height: 50px;
+	}
+	#pagamento .main-pay.inside .alert-paypal {
+		font-size: 18px;
+		width: 500px;
+	}
+	#pagamento .main-pay.inside .bt-left .bt-voltar {
+		margin: 30px 0;
+	}
+	#pagamento .main-pay.inside .pay-create-acc input {
+		width: 320px;
+	}
+	#pagamento .main-pay.inside .pay-create-acc .div-account {
+		width: 50%;
+		float: left;
+		margin-top: 40px;
+	}
+	#pagamento .main-pay.inside .pay-log-facebook .bt-continuar  {
+		position: relative;
+		top: -5px;
+	}
+	#pagamento .main-pay.inside .pay-ok {
+		width: 400px;
+		margin: 0px auto;
+		float: none;
+		clear: both;
+		padding-top: 40px;
+	}
+	#pagamento .main-pay.inside .pay-ok .bt-voltar-home {
+		position: relative;
+		top: -40px;
+	}
+	#pagamento .main-pay.inside .pay-ok p {
+		margin-top: 0px;
+	}
+	/* login */
+	#login {
+		background:  url(../img/logo-o.svg) 50% 50% no-repeat;
+		background-size: 500px;
+		height: 768px;
+	}
+
+	#login .inside h2 {
+		font-size: 34px;
+		line-height: 34px;
+		margin: 36px 0;		
+	}
+	#login .inside p {
+		font-size: 18px;
+		margin-bottom: 36px;
+	}
+	#login .inside button {
+		float: left;
+	}
+	#login .inside button.bt-continuar.facebook {
+		float: right;
+		position: relative;
+		top: -3px;
+		margin: 0;
+	}
+	#login.main .main-social {
+		margin-top: 300px;
+	}
+	/* Perfil */
+
+	#profile .inside .wp-xm {
+		width: 320px;
+		float: left;
+		margin-right: 20px;
+	}
+
+	#profile .inside button {
+		clear: both;
+		margin: 40px 0px 10px 0px;
+		position: relative;
+		top: 30px;
 	}
 
 }
