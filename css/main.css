@@ -1185,6 +1185,12 @@
 	padding: 7px 15px;
 }
 
+#login.main .esqueci a {
+	font-size: 14px;
+	color: #6C6C6C;
+	padding-top: 20px;
+}
+
 /* perfil */
 
 #profile .inside h2 {
@@ -1547,7 +1553,7 @@
 	.main .main-plans p {
 		color: #4A4A4A;
 	}
-	.main .main-plans span {
+	.main .main-plans span.icon-paypal {
 		color: #fff;
 		font-size: 95px;
 		line-height: 95px;
@@ -2080,4 +2086,197 @@
 	.main-footer .main-contacts .newsletter {
 		padding-top: 13px;
 	}
+	/* planos */
+	.main .main-plans {
+		background: none;
+	}
+	#pacotes.main {
+		background: url(../img/bg-lunch-outside.jpg) 50% 50% no-repeat;
+		background-size: cover;
+	}
+	#pacotes.main .main-social {
+		padding: 0;
+	}
+	#pacotes.main .main-social ul {
+		background: #FFFFFF;
+		border-radius: 100px;
+		width: 330px;
+		margin: 0 auto 66px auto;
+		padding: 10px 0;
+		display: block;
+		float: none;
+	}
+	#pacotes.main .main-social li {
+		margin: 0 ;
+	}
+	#pacotes.main .main-social li.twitter {
+		margin: 0 90px;
+	}
+	/* como funciona */
+	#como-funciona .inside h2 {
+		font-size: 64px;
+		letter-spacing: -1.33px;
+		line-height: 64px;
+		margin: 50px 0;	
+	}
+	#como-funciona .inside img {
+		left: auto;
+		width: 100%;
+	}
+	#como-funciona .inside .icon-pointer-black {
+		font-size: 195px;
+		position: relative;
+		left: -15px;
+	}
+	#como-funciona .inside .icon-work>span:last-child {
+		padding: 15px;
+		top: 30px;
+	}
+	/* contato */
+	#contato .inside form {
+		position: relative;
+		top: 160px;
+		display: block;
+	}
+	#contato .inside .contato-fixo {
+		top: -120px;
+	}
+	#contato.main .main-social {
+		padding-top: 60px;
+	}
+	#contato .inside h2 {
+		font-size: 64px;
+		letter-spacing: -1.33px;
+		line-height: 64px;
+		margin: 50px 0;	
+	}
+	#contato .inside textarea {
+		height: 180px;
+	}
+	/* quem somos */
+	#quem-somos .inside .logo-quem-somos {
+		display: none;
+	}
+	#quem-somos .inside h2 {
+		font-size: 64px;
+		letter-spacing: -1.33px;
+		line-height: 64px;
+		margin: 50px 0;	
+	}
+	#quem-somos .inside p {
+		font-size: 36px;
+	}
+	#quem-somos .inside p.floater {
+		float: none;
+		width: auto;
+	}
+	#quem-somos .inside p strong {
+		font-size: inherit;
+		width: 740px;
+		display: block;
+	}
+	/* busca avancada */
+	#busca-avancada .inside h2 {
+		font-size: 64px;
+		letter-spacing: -1.33px;
+		line-height: 64px;
+		margin: 50px 0;	
+	}
+	#busca-avancada h3 {
+		font-size: 48px;
+		letter-spacing: 1.12px;
+		line-height: 60px;
+		margin-top: 40px;
+	}
+	#busca-avancada .adv-search.inside span {
+		display: inline-block;
+		margin-top: 25px;
+		font-size: 20px;
+	}
+	#busca-avancada .adv-search.inside h4 {
+		font-size: 36px;
+		letter-spacing: -0.2px;
+		line-height: 48px;
+	}
+	#busca-avancada .adv-search.inside span strong {
+		font-size: 20px;
+	}
+	#busca-avancada.main .main-search form {
+		position: relative;
+		left: -55px;
+	}
+	.main .main-search form small {
+		text-align: left;
+		margin-bottom: 10px;
+	}
+	#busca-avancada .adv-search.inside .ocorrencias.one span {
+		font-size: 36px;
+		letter-spacing: -0.2px;
+		line-height: 48px;
+		padding-bottom: 10px;
+		padding: 20px 30px;
+    	margin-top: 20px;
+	}
+	#busca-avancada .adv-search.inside .ocorrencias.one span strong {
+		font-size: 48px;
+		letter-spacing: -0.27px;
+	}
+	#busca-avancada .adv-search-b.inside a {
+		font-size: 36px;
+		letter-spacing: 2.16px;
+		line-height: 43px;
+		width: 650px;
+		margin: 60px auto ;
+	}
+	/* carrinho */
+	#pagamento .main-pay.inside .time-pay ul li:after {
+		width: 260px;
+		left: 155px;
+		height: 2px;
+	}
+	#pagamento .main-pay.inside .pay-create-acc .div-account {
+		width: 60%;
+	}
+	#pagamento .main-pay.inside .pay-create-acc .div-account.acc2 {
+		width: 40%;
+	}
+	#pagamento .main-pay.inside .pay-create-acc input {
+		float: left;
+		margin-right: 20px;
+	}
+	#pagamento .main-pay.inside .pay-log-in .bt-continuar {
+		margin-left: 0;
+	}
+	#pagamento .main-pay.inside .pay-log-facebook .bt-continuar {
+		display: inline-block;
+		left: 50px;
+	}
+	#pagamento .main-pay.inside .pay-log-boltar .bt-voltar {
+		margin: 50px 0 0 0;
+	}
+	/* login */
+	#login {
+		height: auto;
+		background-position:  90% 50%;
+	}
+	#login .inside h2 {
+		font-size: 64px;
+		letter-spacing: -1.33px;
+		line-height: 64px;
+		margin: 50px 0;	
+	}
+	#login.main .main-social {
+		margin-top: 100px;
+		position: relative;
+		top: -50px;
+	}
+
+	/* perfil */
+	#profile .inside h2 {
+		font-size: 64px;
+		letter-spacing: -1.33px;
+		line-height: 64px;
+		margin: 50px 0;	
+	}
+
 }
