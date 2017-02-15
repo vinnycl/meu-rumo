@@ -494,17 +494,16 @@
 	position: relative;
 }
 .main .main-saing h3:before {
-	content: "“";
-	font-size: 50px;
+	content: "";
+	width: 30px;
+	height: 30px;
 	color: #4990E2;
-	line-height: 50px;
 	display: block;
-	width: 35px;
-	height: 40px;
-	font-family: monospace;
-	margin-right: 5px;
 	position: absolute;
-	left: 0px;
+	left: -10px;
+	top: 0px;
+	background: url(../img/aspas.svg) no-repeat 50% 50%;
+	background-size: 100%; 
 }
 
 .main .main-saing small {
@@ -1438,8 +1437,9 @@
 		padding-right: 100px;
 	}
 	.main .main-saing h3:before {
-		font-size: 100px;
-		top: 25px;
+		width: 50px;
+		height: 50px;
+		top: 10px;
 	}
 	.main .main-map .container {
 		padding-left: 0px;
@@ -1542,18 +1542,18 @@
 		font-size: 24px;
 	}
 	/* planos */
-	.main .main-plans {
+	#pacotes.main .main-plans {
 		background: url(../img/bg-lunch-outside.jpg) 50% 50% no-repeat;
 		background-size: 100%;
 	}
-	.main .main-plans h2 {
+	#pacotes.main .main-plans h2 {
 		text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 		margin: 20px 0 16px 0;
 	}
-	.main .main-plans p {
+	#pacotes.main .main-plans p {
 		color: #4A4A4A;
 	}
-	.main .main-plans span.icon-paypal {
+	#pacotes.main .main-plans span.icon-paypal {
 		color: #fff;
 		font-size: 95px;
 		line-height: 95px;
@@ -1845,9 +1845,9 @@
 	}
 	.main-header .logo a h1 .logo-ic {
 		width: 116px;
-		height: 141px;
+		height: 146px;
 		margin-right: 20px;
-		top: 60px;
+		top: 56px;
 	}
 	.main-header ul li.quem, .main-header ul li.como, .main-header ul li.pacotes, .main-header ul li.contato, .main-header ul li.login {
 		margin-top: 61px;
@@ -2087,12 +2087,13 @@
 		padding-top: 13px;
 	}
 	/* planos */
-	.main .main-plans {
+	#pacotes.main .main-plans {
 		background: none;
 	}
 	#pacotes.main {
 		background: url(../img/bg-lunch-outside.jpg) 50% 50% no-repeat;
 		background-size: cover;
+		padding-top: 30px;
 	}
 	#pacotes.main .main-social {
 		padding: 0;
