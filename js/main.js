@@ -3,28 +3,13 @@ $( ".main-header .menu a" ).click(function() {
 });
 
 
-$('html').click(function() {
-  $( ".main .main-search form" ).removeClass("open");
-});
-
-$('#btn-classe').click(function(event){
+$('#btn-classe, #btn-classe input, #btn-classe label').click(function(event){
 	$( ".main .main-search form" ).addClass("open");
-    event.stopPropagation();
+	event.stopPropagation();
 });
 
-
-$( ".main .main-search form input#A" ).click(function() {
-	$( ".main .main-search form input#btn-classe" ).val("Classe A");
+$('html:not(btn-classe)').click(function(event){
+	$( ".main .main-search form" ).removeClass("open");
+	event.stopPropagation();
 });
 
-$( ".main .main-search form input#B" ).click(function() {
-	$( ".main .main-search form input#btn-classe" ).val("Classe B");
-});
-
-$( ".main .main-search form input#C" ).click(function() {
-	$( ".main .main-search form input#btn-classe" ).val("Classe C");
-});
-
-$( ".main .main-search form input#D" ).click(function() {
-	$( ".main .main-search form input#btn-classe" ).val("Classe D ou E");
-});

@@ -51,17 +51,28 @@
 							<h2>Buscar fácil e rápida!</h2>
 							<p>Encontre de forma fácil e rápida o melhor local para montar seu negócio. <strong>Faça um teste agora!</strong></p>
 							<form action="#">
-								<input type="text" placeholder="Escolha Cidade" id="btn-cidade" name="cidade">
-								<input type="text" placeholder="Atividade de interesse" id="btn-atividade" name="atividade">
+								<select required id="btn-cidade" name="cidade">
+									<option value="" selected disabled hidden>Escolha Cidade</option>
+									<option value="1" >RJ</option>
+									<option value="2" >SP</option>
+								</select>
+
+								<select required id="btn-atividade" name="atividade">
+									<option value="" selected disabled hidden>Atividade de interesse</option>
+									<option value="3" >RJ</option>
+									<option value="4" >SP</option>
+								</select>
+
 								<div class="menu-drop">
 									<input type="text" placeholder="Classe Social" id="btn-classe" name="classe">
 									<div class="opt-class">
 										<h3>Marque mais de uma opção caso necessário</h3>
 										<ul>
-											<li><input type="radio" name="asw" id="A"> <strong>Classe A</strong></li>
-											<li><input type="radio" name="asw" id="B"> <strong>Classe B</strong></li>
-											<li><input type="radio" name="asw" id="C"> <strong>Classe C</strong></li>
-											<li><input type="radio" name="asw" id="D"> <strong>Classe D e E</strong></li>
+											<li><input type="checkbox" name="asw" id="A"> <strong><label for="A">Classe A</label></strong></li>
+											<li><input type="checkbox" name="asw" id="B"> <strong><label for="B">Classe B</label></strong></li>
+											<li><input type="checkbox" name="asw" id="C"> <strong><label for="C">Classe C</label></strong></li>
+											<li><input type="checkbox" name="asw" id="D"> <strong><label for="D">Classe D</label></strong></li>
+											<li><input type="checkbox" name="asw" id="D"> <strong><label for="E">Classe E</label></strong></li>
 										</ul>
 									</div>
 								</div>
