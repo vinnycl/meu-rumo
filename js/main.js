@@ -3,13 +3,15 @@ $( ".main-header .menu a" ).click(function() {
 });
 
 
-$('#btn-classe, #btn-classe input, #btn-classe label').click(function(event){
-	$( ".main .main-search form" ).addClass("open");
-	event.stopPropagation();
+$("#btn-classe").on("click", function(event){
+    $(".main .main-search form").toggleClass("open");
+    event.stopPropagation();
 });
 
-$('html:not(btn-classe)').click(function(event){
-	$( ".main .main-search form" ).removeClass("open");
-	event.stopPropagation();
+$(".main .main-search form").on("click", function(event){
+    event.stopPropagation();
 });
 
+$(document).on("click", function(event){
+    $(".main .main-search form").removeClass("open");
+});
