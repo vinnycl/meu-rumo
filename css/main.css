@@ -1240,6 +1240,10 @@
 	margin: 40px auto 10px auto;
 }
 
+#gmap {
+	height: 350px;
+}
+
 @media (min-width: 768px) {
 	.main-header .menu {
 		width: 104px;
@@ -1799,6 +1803,10 @@
 		position: relative;
 		top: 30px;
 	}
+	#gmap {
+		height: 500px;
+	}
+
 
 }
 @media (min-width: 992px) {
