@@ -289,6 +289,22 @@
 	background: white;
 }
 
+.main .main-search form input::-webkit-input-placeholder {
+	color: #B5B8BB;
+}
+.main .main-search form input::-moz-placeholder {
+	color: #B5B8BB;
+}
+.main .main-search form input:-ms-input-placeholder {
+	color: #B5B8BB;
+}
+.main .main-search form input:-moz-placeholder {
+	color: #B5B8BB;
+}
+.main .main-search form input::placeholder {
+	color: #B5B8BB;
+}
+
 .main .main-search form small {
 	display: block;
 	font-size: 12px;
