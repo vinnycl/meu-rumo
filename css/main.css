@@ -1940,12 +1940,11 @@
 		display: block;
 	}
 	.main .main-search form {
-		width: 1024px;
 		margin: 0 auto;
 		display: block;
 	}
 	#btn-cidade {
-		width: 295px;
+		width: 411px;
 		height: 68px;
 		font-size: 24px;
 		line-height: 68px;
@@ -2228,7 +2227,6 @@
 	}
 	#busca-avancada.main .main-search form {
 		position: relative;
-		left: -55px;
 	}
 	.main .main-search form small {
 		text-align: left;
