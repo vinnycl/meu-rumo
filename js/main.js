@@ -15,3 +15,8 @@ $(".main .main-search form").on("click", function(event){
 $(document).on("click", function(event){
     $(".main .main-search form").removeClass("open");
 });
+
+$( "#iniciar-busca" ).submit(function( event ) {
+	var structure = $('<div class="overlay"><div class="loading"><span>Carregando sua busca</span></div></div>');
+	$('body').append(structure); 
+});

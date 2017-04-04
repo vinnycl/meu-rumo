@@ -218,3 +218,69 @@ input {
 }
 
 
+.ui-menu {
+	width: 320px !important;
+}
+
+@media (min-width: 768px) {
+	.ui-menu {
+		width: 768px !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.ui-menu {
+		width: 992px !important;
+	}
+}
+
+.ui-menu li {
+	padding: 8px;
+	border: 1px solid #9B9B9B;
+	font-family: "Lato", sans-serif;
+	font-size: 18px;
+	color: #B5B8BB;
+	border-top: 0px none;
+	cursor: pointer;
+	transition: all 200ms ease-out;
+	background: white;
+}
+.ui-menu li:hover {
+background: #5b9be5;
+	color: #fff;
+}
+.ui-menu li:last-child {
+	border-radius: 0 0 5px 5px;
+}
+
+
+.overlay {
+	background: rgba(255, 255, 255, 0.7);
+	position: fixed;
+	z-index: 999999;
+	width: 100%;
+	height: 100%;
+	display: block;
+	top: 0px;
+	left: 0px;
+	transition: all 200ms ease-out;
+}
+
+.loading {
+	width: 200px;
+	height: 270px;
+	background: url("../img/loading4.gif") no-repeat;
+	background-size: 200px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -135px 0 0 -100px;
+}
+
+.loading span {
+	text-align: center;
+	padding-top: 210px;
+	display: block;
+	font-size: 18px;
+	color: #000;
+}

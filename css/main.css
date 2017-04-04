@@ -830,6 +830,11 @@
 	line-height: 36px;
 	margin: 10px 0 0 0;
 }
+#busca-avancada .opt-class h3 {
+	font-size: 20px;
+	line-height: 1.4;
+	margin-top: 0px;
+}
 
 /* Carrinho */
 
@@ -2227,6 +2232,8 @@
 	}
 	#busca-avancada.main .main-search form {
 		position: relative;
+		z-index: 3;
+		top: 3px;
 	}
 	.main .main-search form small {
 		text-align: left;
