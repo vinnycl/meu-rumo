@@ -1203,9 +1203,7 @@
 }
 
 #login.main .esqueci a {
-	font-size: 14px;
-	color: #6C6C6C;
-	padding-top: 20px;
+	text-decoration: underline;
 }
 
 /* perfil */

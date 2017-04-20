@@ -284,3 +284,9 @@ background: #5b9be5;
 	font-size: 18px;
 	color: #000;
 }
+
+.help-block {
+	padding: 5px 15px 0 0;
+	float: right;
+	color: red;
+}

@@ -37,23 +37,13 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-lg-5">
-							<h2>Login</h2>
-							<p>Acesse sua conta e comece a usufluir de todas as vantagens!</p>
+							<h2>Recuperar senha</h2>
+							<p>Digite seu email para enviar enviar uma nova para seu e-mail</p>
 
-							<form action="#">
-								<input type="text" placeholder="Nome" name="" required="required">
-								<input type="password" placeholder="Sua senha" name="" required="required">
-
-								<button class="bt-continuar">Entrar</button>
-								<button class="bt-continuar facebook" ><span class="icon-facebook"> </span>Entrar pelo Facebook</button>
+							<form action="#" id="form-cadastro">							
+								<input type="text" placeholder="E-mail" data-validation="email" name="" required="required">
+								<button class="bt-continuar">Recuperar</button>
 							</form>
-
-
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-12 esqueci">
-							<p>Se ainda não tem login, <a href="cadastro.html">crie seu cadastro</a>, ou <a href="recuperar.html">mude sua senha</a> caso tenha esquecido ela.</p>
 						</div>
 					</div>
 				</div>
@@ -124,6 +114,12 @@
 
 		
 		<script src="http://code.jquery.com/jquery-1.12.1.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+		<script>
+			$.validate({
+				lang: 'pt'
+			});
+		</script>
 		<script src="js/main.js"></script>
 	</body>
 </html>

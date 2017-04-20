@@ -40,12 +40,13 @@
 							<h2>Cadastro</h2>
 							<p>Cadastre-se e comece a usufluir de todas as vantagens!</p>
 
-							<form action="#">
-								<input type="text" placeholder="Nome" name="">								
-								<input type="text" placeholder="E-mail" name="">
-								<input type="password" placeholder="Crie uma senha" name="">
-								<input type="password" placeholder="Confirmar senha" name="">
-								<input type="text" placeholder="Telefone" name="">
+							<form action="#" id="form-cadastro">
+								<input type="text" placeholder="Nome" name="" data-validation="length alphanumeric" data-validation-length="min4" required="required">								
+								<input type="text" placeholder="E-mail" data-validation="email" name="" required="required">
+								<input type="password" placeholder="Senha" name="" data-validation="alphanumeric" data-validation-allowing="-_" required="required">
+								<input type="password" placeholder="Confirmar senha" name="" required="required">
+								<input type="text" placeholder="Telefone" name="" required="required">
+								<input type="text" placeholder="Data de nascrimento" data-validation-format="dd/mm/yyyy name="" required="required">
 								<button class="bt-continuar">Cadastrar</button>
 							</form>
 						</div>
@@ -118,6 +119,12 @@
 
 		
 		<script src="http://code.jquery.com/jquery-1.12.1.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+		<script>
+			$.validate({
+				lang: 'pt'
+			});
+		</script>
 		<script src="js/main.js"></script>
 	</body>
 </html>
