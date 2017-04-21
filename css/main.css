@@ -1842,11 +1842,14 @@
 		padding-left: 0px;
 		display: inline-block;
 	}
+	.main-header ul {
+		text-align: center;
+	}
 	.main-header ul li a {
 		display: block;
 		color: #FFF;
 		text-transform: uppercase;
-		padding: 20px 28px;
+		padding: 20px 25px;
 		letter-spacing: 1.87px;
 		font-size: 14px;
 		background: transparent;
