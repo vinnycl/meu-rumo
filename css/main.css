@@ -476,7 +476,7 @@
 	margin: 0 0 26px 0;
 }
 
-.main .main-plans ul li a {
+.main .main-plans ul li a, .main .main-plans ul li .botao-compra {
 	border-radius: 100px;
 	font-size: 12px;
 	letter-spacing: 2.4px;
@@ -486,6 +486,7 @@
 	color: #525252;
 	background: #ffffff;
 	border: 1px solid #525252 ;
+	cursor: pointer;
 }
 .main .main-plans ul li:first-child a {
 	color: #FFFFFF;
@@ -1318,6 +1319,76 @@
 	padding-bottom: 30px;
 }
 
+/* response */
+
+#response .main-response {
+	padding: 30px 0;
+}
+
+#response .main-response .response-ok {
+	text-align: center;
+}
+
+#response .main-response .response-ok span {
+	width: 57px;
+	height: 57px;
+	border: 3px solid #FFC80A;
+	color: #FFC80A;
+	font-size: 25px;
+	line-height: 53px;
+	border-radius: 100px;
+	display: block;
+	vertical-align: middle;
+	margin: 0 auto;
+	background-size: 100%;
+	background: url(../img/cancel.svg) no-repeat 50% 50%;
+    background-size: 70%;
+}
+
+#response .main-response .response-ok h2 {
+	font-size: 23px;
+	color: #212121;
+	font-weight: 400;
+	line-height: 30px;
+	margin: 33px 0 0 0;
+}
+#response .main-response .response-ok h2 strong {
+	font-weight: 400;
+}
+
+#response .main-response .response-ok p {
+	font-size: 14px;
+	color: #9FA3A7;
+	line-height: 20px;
+	margin: 30px 0 60px 0;
+}
+
+#response .main-response .response-ok .bt-voltar-home {
+	font-size: 12px;
+	color: #212121;
+	letter-spacing: 2.4px;
+	font-weight: 400;
+	padding: 15px;
+	border: 3px solid #FFC80A;
+	border-radius: 24px;
+}
+
+#response .main-response .response-ok .response-ok-btn {
+	padding: 50px 0 30px;
+}
+
+#response .main-response .response-ok span.not-find {
+	background-image: url(../img/error-404.svg);
+}
+
+#response .main-response .response-ok span.not-search {
+	background-image: url(../img/search-problem.svg);
+}
+
+#response .main-response .response-ok span.not-search-error {
+	background-image: url(../img/search-2.svg);
+}
+
 @media (min-width: 768px) {
 	.main-header .menu {
 		width: 104px;
@@ -1476,7 +1547,7 @@
 		margin-right: 250px;
 		margin-top: 20px;
 	}
-	.main .main-plans ul li a {
+	.main .main-plans ul li a, .main .main-plans ul li .botao-compra {
 		background: #F8F8F8;
 	}
 	.main .main-plans ul li:first-child {
@@ -2068,11 +2139,11 @@
 		height: 455px;
 		top: -27px;
 	}
-	.main .main-plans ul li a {
+	.main .main-plans ul li a, .main .main-plans ul li .botao-compra {
 		padding: 14px;
 		transition: all 200ms ease-out;
 	}
-	.main .main-plans ul li a:hover {
+	.main .main-plans ul li a:hover, .main .main-plans ul li .botao-compra:hover {
 		color: #FFFFFF;
 		background: #D0011B;
 		border: 1px solid #D0011B;
