@@ -488,7 +488,7 @@
 	border: 1px solid #525252 ;
 	cursor: pointer;
 }
-.main .main-plans ul li:first-child a {
+.main .main-plans ul li:first-child a, .main .main-plans ul li:first-child .botao-compra {
 	color: #FFFFFF;
 	background: #D0011B;
 	border: 1px solid #D0011B ;
