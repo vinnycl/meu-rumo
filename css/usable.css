@@ -290,3 +290,61 @@ background: #5b9be5;
 	float: right;
 	color: red;
 }
+
+.backdrop {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+}
+
+.backdrop .modal {
+    min-width: 320px;
+    background: white;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translatey(-50%);
+    -moz-transform: translateX(-50%) translatey(-50%);
+    transform: translateX(-50%) translatey(-50%);
+}
+
+.backdrop .modal .modal-body {
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.backdrop .modal .modal-body.error {
+    border: 5px solid #d31a31;
+}
+
+.backdrop .modal .modal-body.correct {
+    border: 5px solid #8ec63f;
+}
+
+.backdrop .modal .modal-body p {
+    text-align: center;
+    font: 16px / 1.2 "Lato", sans-serif;
+    margin: 10px 0;
+}
+
+.backdrop .modal .modal-body a {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #1c1c1c;
+    text-shadow: 0 1px 0 #fff;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+}

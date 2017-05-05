@@ -20,3 +20,12 @@ $( "#iniciar-busca" ).submit(function( event ) {
 	var structure = $('<div class="overlay"><div class="loading"><span>Carregando sua busca</span></div></div>');
 	$('body').append(structure); 
 });
+
+
+function closeModal () {
+	$(".backdrop").remove();
+}
+
+function openModal (texto, classe) {
+	$("body").append("<div onclick='closeModal();' class='backdrop'><div class='modal'><div class='modal-body "+classe+"'><a onclick='closeModal();'>×</a><p>"+texto+"</p></div></div></div>");
+}
