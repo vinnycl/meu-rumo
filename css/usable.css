@@ -285,12 +285,6 @@ background: #5b9be5;
 	color: #000;
 }
 
-.help-block {
-	padding: 5px 15px 0 0;
-	float: right;
-	color: red;
-}
-
 .backdrop {
     position: fixed;
     z-index: 99;

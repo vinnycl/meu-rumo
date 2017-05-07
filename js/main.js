@@ -3,7 +3,7 @@ $( ".main-header .menu a" ).click(function() {
 });
 
 
-$("#btn-classe").on("click", function(event){
+$(".menu-drop").on("click", function(event){
     $(".main .main-search form").toggleClass("open");
     event.stopPropagation();
 });
